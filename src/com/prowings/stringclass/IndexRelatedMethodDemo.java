@@ -1,18 +1,16 @@
 package com.prowings.stringclass;
 
-public class StringSplitMethodDemo2 {
+public class IndexRelatedMethodDemo {
+	
 	public static void main(String[] args) {
 		
 		System.out.println("main method started!!");
 		
-		String sentance = "India is my country";
+		String str = "helloworld";
 		
-		String[] words = sentance.split(" ");
+		int index = str.indexOf('l');
 		
-		for(String word : words)
-		{
-			System.out.println(word);
-		}
+		System.out.println("index is :"+index);
 		
 		System.out.println("main method ended!!");
 		
