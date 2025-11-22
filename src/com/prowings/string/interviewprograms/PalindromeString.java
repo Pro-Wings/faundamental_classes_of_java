@@ -1,4 +1,4 @@
-package com.prowings.stringbufferdemo;
+package com.prowings.string.interviewprograms;
 
 public class PalindromeString {
 	
